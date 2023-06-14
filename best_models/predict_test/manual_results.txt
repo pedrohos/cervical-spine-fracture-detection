@@ -1,0 +1,7 @@
+Ultralytics YOLOv8.0.113  Python-3.10.11 torch-2.0.1 CUDA:0 (NVIDIA GeForce RTX 3070, 8191MiB)
+YOLOv8m summary (fused): 218 layers, 25840339 parameters, 0 gradients
+val: Scanning E:\tcc\YOLOv6\dataset\labels\test.cache... 2217 images, 1062 backgrounds, 0 corrupt: 100%|██████████| 221
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 139/139 [00:
+                   all       2217       1155      0.331      0.289      0.225     0.0746
+Speed: 0.1ms preprocess, 6.6ms inference, 0.0ms loss, 1.1ms postprocess per image
+Results saved to runs\detect\val10

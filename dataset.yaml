@@ -1,0 +1,10 @@
+# Please insure that your custom_dataset are put in same parent dir with YOLOv6_DIR
+train: ../YOLOv6/dataset_test/images/train # train images
+val: ../YOLOv6/dataset_test/images/val # val images
+test: ../YOLOv6/dataset_test/images/test # test images (optional)
+
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+# Classes
+nc: 1  # number of classes
+names: ['fracture']  # class names

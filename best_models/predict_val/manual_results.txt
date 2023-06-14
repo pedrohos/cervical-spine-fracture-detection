@@ -1,0 +1,6 @@
+YOLOv8m summary (fused): 218 layers, 25840339 parameters, 0 gradients
+val: Scanning E:\tcc\YOLOv6\dataset\labels\val.cache... 2023 images, 1083 backgrounds, 0 corrupt: 100%|██████████| 2023
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 127/127 [00:
+                   all       2023        940      0.341      0.328      0.233     0.0714
+Speed: 0.1ms preprocess, 6.6ms inference, 0.0ms loss, 1.1ms postprocess per image
+Results saved to runs\detect\val9
